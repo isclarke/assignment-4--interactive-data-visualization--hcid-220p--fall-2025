@@ -13,7 +13,7 @@ const xScale = d3.scalePoint()
 const colorScale = d3.scaleOrdinal(d3.schemeTableau10);
 
 // ---- Load CSV Data ----
-d3.csv(`data/data.csv`, d3.autoType).then(data => {
+d3.csv(`/data/data.csv`, d3.autoType).then(data => {
 
     const svg = d3.select(`#donut`)
         .append(`svg`)
