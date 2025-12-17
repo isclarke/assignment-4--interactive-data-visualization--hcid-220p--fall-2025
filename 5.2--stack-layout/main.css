@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100vh;
+  background: #fafafa;
+}
+
+.responsive-svg-container {
+  width: 100%;
+  max-width: 900px;
+  height: 400px;
+  margin: 20px 0;
+}
+
+svg {
+  width: 100%;
+  height: 100%;
+  font-family: inherit;
+}
+
+.stacked-bar {
+  stroke-width: 0;
+}
+
+.stacked-bar:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.axis path,
+.axis line {
+  stroke: #ccc;
+}
+
+.axis text {
+  font-size: 12px;
+  fill: #333;
+}
+
+.pie-label {
+  text-anchor: middle;
+  dominant-baseline: central;
+  fill: #f6fafc;
+  fill-opacity: 0.9;
+  font-size: 8px;
+  font-weight: 500;
+  pointer-events: none;
+  stroke: #222;
+  stroke-width: 0.5px;
+  paint-order: stroke;
+}
+
+.year-label {
+  font-size: 8px;
+  font-weight: 600;
+  fill: #222;
+  text-anchor: middle;
+  dominant-baseline: central;
+}
