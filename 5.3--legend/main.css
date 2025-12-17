@@ -62,3 +62,35 @@ svg {
   text-anchor: middle;
   dominant-baseline: central;
 }
+
+.legend-container {
+  width: 100%;
+  max-width: 900px;
+  margin: 10px auto 30px;
+}
+
+.color-legend {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.color-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+}
+
+.color-legend-item-color {
+  width: 14px;
+  height: 14px;
+  border-radius: 2px;
+}
+
+.color-legend-item-label {
+  white-space: nowrap;
+}
