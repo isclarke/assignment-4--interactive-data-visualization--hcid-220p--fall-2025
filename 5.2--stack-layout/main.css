@@ -27,11 +27,6 @@ svg {
   stroke-width: 0;
 }
 
-.stacked-bar:hover {
-  opacity: 0.8;
-  cursor: pointer;
-}
-
 .axis path,
 .axis line {
   stroke: #ccc;
@@ -40,19 +35,6 @@ svg {
 .axis text {
   font-size: 12px;
   fill: #333;
-}
-
-.pie-label {
-  text-anchor: middle;
-  dominant-baseline: central;
-  fill: #f6fafc;
-  fill-opacity: 0.9;
-  font-size: 8px;
-  font-weight: 500;
-  pointer-events: none;
-  stroke: #222;
-  stroke-width: 0.5px;
-  paint-order: stroke;
 }
 
 .year-label {
